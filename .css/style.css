@@ -1,0 +1,207 @@
+/* ESTILIZAÇÃO GERAL */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: 	#F5FFFA;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*ESTILIZAÇÃO DO HEADER*/
+
+header {
+    padding: 10px;
+    align-items: center;
+    background-color: #009ACD;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav img {
+    width: 110px;
+    height: 55px;
+    margin-left: 27px;
+    cursor: pointer;
+}
+
+nav form input {
+    height: 40px;
+    width: 600px;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+nav .links {
+    margin-right: 1.2em;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+    margin: 0px 5px;
+    padding: 7px;
+}
+
+a:hover {
+    color: #363636;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/* ESTILIZAÇÃO DO MAIN */
+
+.about {
+    position: relative;
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+    opacity: 0.7;
+}
+
+
+.texto-sobreposto {
+    position: absolute;
+    top: 44%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    padding: 26px;
+    font-size: 17px;
+    width: 41%;
+    border-radius: 25px;
+}
+
+.texto-sobreposto .introduction {
+    font-size: 20px;
+}
+
+.texto-sobreposto h1 {
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #E6E6FA;
+}
+
+.row img {
+    width: 100px;
+    height: 100px;
+}
+
+.row .papel-higiênico, .capa-de-chuva, .lâmpada, .produto-de-limpeza {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .slogan {
+    width: 77%;
+    font-size: 25px;
+    margin-bottom: 7px;
+    margin-top: 4%;
+}
+
+article .apresentacao2, .apresentacao1 {
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.apresentacao2 {
+    margin-top: 4%;
+}
+
+.botao {
+    margin-top: 3%;
+    width: 130px;
+    height: 45px;
+    background-color: #009ACD;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #1874CD;
+    transition: 0.1s ease-in-out;
+}
+
+section {
+    background-color: #104E8B;
+    color: white;
+}
+
+section h1 {
+    width: 100%;
+    align-items: center;
+    margin: 1%;
+    background-color: #1874CD;
+}
+
+section .linkedin {
+    display: grid;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*ESTILIZAÇÃO DO FOOTER */ 
+
+footer {
+    background-color: #a9a9a9;
+    padding: 9px;
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
